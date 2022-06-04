@@ -17,8 +17,8 @@ var appID string
 var appCertificate string
 
 func init() {
-	os.Setenv("APP_ID", "8167769684ed4d9580e12aa1380a69a9")
-	os.Setenv("APP_CERTIFICATE", "3cab311acfff4873b39eb321971ead8a")
+	os.Setenv("APP_ID", "378a913994f3497d97eb5bbeb95a98c2")
+	os.Setenv("APP_CERTIFICATE", "127825b4594f4fdc9276048cf4a9842a")
 	// loads values from .env into the system
 	if err := godotenv.Load(); err != nil {
 		log.Print("No .env file found")
